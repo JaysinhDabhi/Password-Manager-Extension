@@ -1,0 +1,32 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+    
+  </head>
+  
+<body>
+    <h1>Password Generator</h1>
+    <!-- <label for="password">Generated Password:</label>  -->
+    <h4>Generated Password:</h4>
+    <input type="text" id="password" readonly>
+    <button id="generate">Generate Password</button>
+
+    <h4>Enter Password Title</h4>
+    <input type="text" id="website" placeholder="Website/Account Name">
+    <button id="save">Save Password</button>
+  
+    <h4>Search Password</h4>
+    <input type="text" id="websiteName" placeholder="Search Password">
+    <button id="view">View Password</button>
+
+    <h2>Saved Passwords:</h2>
+    <ul id="passwordList"></ul>
+  
+    <ul id="savedPasswords"></ul>
+  
+    <script src="popup.js"></script>
+  </body>
+  

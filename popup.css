@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text color */
+    width: 300px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: #fff; /* Teal heading color */
+    text-align: center;
+  }
+  
+  label {
+    color: #fff; /* Green label color */
+  }
+  
+  input[type="text"],
+  button {
+    background-color: #555; /* Darker background for input and buttons */
+    color: #fff; /* Light text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #777; /* Slightly lighter background on hover */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button.delete {
+    background-color: #dc3545; /* Red delete button color */
+  }
+  
+  button.delete:hover {
+    background-color: #bd2130; /* Darker red on hover */
+  }
+  
+  
